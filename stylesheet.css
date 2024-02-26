@@ -1,0 +1,120 @@
+@media only screen and (max-width: 375px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-image: url(images/achtergrond.png);
+    background-size: cover;
+    width: 375px;
+    margin: 0%;
+  }
+  header {
+    width: 375px;
+  }
+
+  .logonaam {
+    background-color: #f29bab;
+  }
+
+  .logo {
+    width: 7.5ex;
+    height: 7.5ex;
+    float: left;
+    padding-left: 1em;
+  }
+
+  nav {
+    display: flex;
+    height: 3em;
+    background-color: #607ebf;
+    justify-content: space-evenly;
+  }
+  nav img {
+    width: 4.3ex;
+    height: 4.3ex;
+    padding-right: 40%;
+  }
+  nav ul {
+    padding: 0%;
+    font-size: 0.8em;
+  }
+  a {
+    color: #a52d43;
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1 {
+    text-align: right;
+    margin: 0%;
+    border-top: 2em;
+    padding-right: 1em;
+  }
+  h1,
+  h2 {
+    font-family: "portofino", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 2ex;
+  }
+  .poezenboot {
+    width: 50%;
+    height: 50%;
+    background-color: #607ebf;
+    padding-left: 93.75px;
+    padding-right: 93.75px;
+  }
+  .tweedekop {
+    padding-top: 2em;
+  }
+  p {
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  li {
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: space-between;
+  }
+  div {
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .advertentie {
+    display: flex;
+    flex-direction: column;
+    background-color: #a52d43;
+    width: 12em;
+    color: #f29bab;
+    padding-left: 93.75px;
+    padding-right: 93.75px;
+  }
+  .terug {
+    width: 15%;
+    height: 15%;
+  }
+  .verder {
+    width: 15%;
+    height: 15%;
+    padding-left: 16em;
+  }
+  .laatstep {
+    padding-bottom: 2em;
+  }
+  footer {
+    background-color: #f29bab;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
